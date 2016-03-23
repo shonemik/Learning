@@ -1,0 +1,17 @@
+{
+  "name": "mytestproject1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "dependencies": {
+    "browserify": "^9.0.3",
+    "helloshone": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify SOURCE/index.js > bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
